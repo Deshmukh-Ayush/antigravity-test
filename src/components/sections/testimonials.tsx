@@ -51,7 +51,7 @@ export function Testimonials() {
                             </CardHeader>
                             <CardContent>
                                 <p className="text-sm text-muted-foreground">
-                                    "{testimonial.content}"
+                                    &ldquo;{testimonial.content}&rdquo;
                                 </p>
                             </CardContent>
                         </Card>

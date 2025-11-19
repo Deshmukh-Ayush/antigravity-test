@@ -317,7 +317,7 @@ export const SimulateVisual = () => {
                     <span className="text-green-400">✓</span> Workflow validated
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }}>
-                    <span className="text-blue-400">ℹ</span> Agent "SupportBot" initialized
+                    <span className="text-blue-400">ℹ</span> Agent &quot;SupportBot&quot; initialized
                 </motion.div>
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.4 }}>
                     <span className="text-yellow-400">⚠</span> Rate limit check: OK
