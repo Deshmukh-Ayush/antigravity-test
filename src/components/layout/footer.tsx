@@ -8,16 +8,16 @@ export function Footer() {
                     <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
                         Built by{" "}
                         <a
-                            href="#"
+                            href="https://everywhereayush.vercel.app/"
                             target="_blank"
                             rel="noreferrer"
                             className="font-medium underline underline-offset-4"
                         >
-                            Cloff Inc
+                            Ayush Deshmukh
                         </a>
                         . The source code is available on{" "}
                         <a
-                            href="#"
+                            href="https://github.com/Deshmukh-Ayush/antigravity-test"
                             target="_blank"
                             rel="noreferrer"
                             className="font-medium underline underline-offset-4"
