@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shadcn MCP Test Repository
+
+It is a test repo created for the testing of Antigravity.
+
+## Prompts Used
+
+### Initial Prompt
+> You are a senior design engineer. I want you to install shadcn and configure shadcn MCP server Add these 5 under registries section add Aceternity, Cult UI, Shadcn blocks, Skiper UI and Magic UI. Then test whether everything is working or not.
+>
+> Then create a minimal landing page for a saas application with navbar, hero section, companies that work with us, bento grids that explain how works and another bento for featues another section talking about benefits, testimonial, pricing, CTA, Faqs, CTa and lastly a footer.
+>
+> Add minimal and tasteful interactions and animations. 
+> Keep the overall vibe of the website such that it's design stands out, looks and feels professional and clean.
+>
+> **About the Product:**
+>
+> It is an AI agentic workflow product named Cloff, How it works is it Manage and simulate agentic workflows, it has a drag and drop interface
+> Agents operate independently and coordinate tasks to complete all complex goals together
+> Run agent workflows in a sandbox to preview behavior, debug logic, and test interactions
+>
+> **Features:**
+> * LLM Model selector
+> * Track real-time activity of agents with detailed records of triggers, tools used, outcomes, and timestamps.
+> * Text to workflow builder
+> * Preview and debug workflow logic in a safe sandbox before deploying, helping you iterate with confidence.
+> * Native tool integration
+> * Track real-time activity of agents with detailed records of triggers, tools used, outcomes, and timestamps.
+> * One click auth
+> * Realtime sync
+> * Custom connector sdk
+>
+> **Benefits**
+> * Launcg faster 
+> * iterate rapidly
+> * scale smarter
+> * reuse intelligence
+> * prevent breakdowns
+> * automate more
+>
+> **Pricing**
+> * **growth plan $8**: Up to 5 active agents, 50 simulation runs, Visual builder access, GitHub + Zapier integration, Basic support, 1 team workspace, Workflow APIs, Community Slack access
+> * **scale plan $19**: Up to 25 active agents, 150 simulation runs, Visual builder access, GitHub + Zapier integration, Priority support, 3 team workspace, Workflow APIs, Priority Slack access
+> * **enterprise $30**: Unlimited active agents, Unlimited simulation runs, Visual builder access, GitHub + Zapier integration, Priority support, Unlimited team workspace, Workflow APIs, Priority Slack access, Access to Fight Club
+>
+> Rest you can think of.
+>
+> You can add modern animated illustrations and svg path line animation showcasing animated things connecting each other and stuff.
+
+### Continuation Prompt 1
+> the bento grids and benfits visualisation is feeling very empty. can you create svg animations to fix this probably you can add forge ui components to fill the missing pieces
+> https://forgeui.in/
+
+### Continuation Prompt 2
+> animations were great maybe you add more of these in Why Choose Cloff? benefits visualisation How Cloff Works. I think how cloff works needs rework because it looks so dull
 
 ## Getting Started
 
-First, run the development server:
+To clone and use this repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd shadcn-mcp
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Thank you, have a nice day!!
